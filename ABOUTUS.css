@@ -1,0 +1,501 @@
+/* ---------top free shiping----------- */
+#topper{
+    height: 35px;
+    display: flex;
+    background-color: rgb(31, 30, 30);
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+    font-size:smaller;
+    color: white;
+    width: 100%;
+    align-items: center;
+    font-weight: 10;
+}
+.top1{
+    padding-left: 35px;
+}
+.top2{
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+    padding-right: 80px;
+}
+.BOR{
+    border: 1px solid rgb(185, 185, 185);
+    height: 22px;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+/* -----------navbar----------------- */
+#index{
+    list-style-type: none;
+    list-style:none;
+    height: 70px;
+    /* width: 100%; */
+    /* position: fixed; */
+    background-color: white;
+    box-shadow: 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(31, 30, 30);
+}
+#index a{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+}
+.indexone{
+    /* margin-right: 700px; */
+justify-content: flex-start;
+
+}
+.indextwo{
+    color: navy;
+    display: flex;
+    /* justify-content:space-between; */
+    /* margin-left: 300px; */
+    /* font-family: 'Brygada 1918', serif; */
+    font-size: 15px;
+    justify-content: space-between;
+}
+.indextwo li{
+    padding-right: 37px;
+}
+.shophover{
+    height: 400px;
+    width: 150px;
+    background-color: rgb(31, 30, 30);
+    color: rgb(182, 175, 175);
+    position: relative;
+    top: 235px;
+    display: none;
+}
+.pagesdiv:hover .pageshover{
+    display: block;
+}
+.pageshover{
+    height: 400px;
+    width: 150px;
+    background-color: rgb(31, 30, 30);
+    color: rgb(182, 175, 175);
+    position: relative;
+    top: 226px;
+    display: none;
+}
+.shop{
+    border: 2px solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 130px;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.faltu{
+    border-top: none;
+}
+
+.indexthree{
+    height: 30px;
+    width: 90px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    /* margin-left: 350px; */
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: small;
+}
+*{
+    margin: 0%;
+}
+.carthover{
+    height: 470px;
+    width: 450px;
+    color: rgb(54, 54, 54);
+    background-color: white;
+    position: absolute;
+    top: 106px;
+    right: 70px;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0px 0px 1px;
+    display: none;
+;
+}
+.carthover h1{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: 444;
+    font-size: 24px;
+}
+.cart1{
+border: 1px solid;
+border-top: none;
+border-left: none;
+border-right: none;
+width: 355px;
+display: flex;
+
+}
+.cart{
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+.cart p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.cart .rate{
+    font-size: 17px;
+}
+.WrongSIGN{
+    position: relative;
+    bottom: 50px;
+    left: 400px;
+
+}
+.wrongSIGN{
+    font-size: 15px;
+    position: relative;
+    left: 270px;
+    bottom: 50px;
+}
+.wrongSIGN2{
+    margin-right: 15px;
+}
+.carty {
+    position: relative;
+    right: 50px;
+}
+
+.cart2{
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    padding-top: 10px;
+    width: 355px;
+}
+.cart3{
+    width: 355px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.cart4{
+    margin-left: 55px;
+    /* justify-content: center; */
+}
+.cart4 button{
+    margin-left: 5px;
+    height: 52px;
+    width: 167px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    font-size: 17px;
+}
+.indexthree:hover .carthover{
+    display: block;
+}
+/* --------------------------#welcometotheworld---------------------------------------------------------- */
+#uperpatta{
+    height: 80px;
+    background-color: whitesmoke;
+    
+}
+#uperpatta p{
+    padding-top: 30px;
+    padding-left: 180px;
+    color: rgb(54, 54, 54);
+}
+#welcometotheworld{
+    height: 600px;
+    padding-top: 100px;
+    background-color: white;
+}
+.welcome1{
+    height: 500px;
+    width: 1100px;
+    margin: auto;
+ display: flex;
+ /* justify-content: space-around; */
+ color: rgb(31, 30, 30);
+}
+.welcome121{
+    height: 470px;
+    width: 550px;
+    display: flex;
+
+}
+.GOLI{
+    height: 300px;
+    width: 400px;
+    border: 40px solid whitesmoke;
+    border-radius: 450px;
+    margin: auto;
+    padding-left: 40px;
+}
+.inage{
+height: 470px;
+width: 350px;
+position: relative;
+bottom: 100px;
+right: 110px;
+}
+.welcomeGOL{
+    height: 470px;
+    width: 300px;
+    /* background-color: bisque; */
+    /* background-image: url(../images/deal.jpg);
+    background-position: right; */
+}
+.inage img{
+    height: 470px;
+    width: 330px;
+}
+.welcome121 img{
+    height: 470px;
+    width: 370px;
+    
+}
+.welcome122{
+    height: 500px;
+    width: 500px;
+}
+.welcome122 h1{
+    /* margin-bottom: 30px; */
+    font-size: 33px;
+    font-weight: lighter;
+}
+.welcome122 p{
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.welcomeBACH{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.freeGIFTmain{
+    height: 200px;
+    width: 400px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    color:rgb(31, 30, 30);
+}
+.freegiftcard1{
+    height: 80px;
+    width: 300px;
+    display: flex;
+}
+.freegiftcard2{
+    height: 80px;
+    width: 300px;
+    display: flex;
+}
+.freegiftcard2,.frc2 h1{
+    font-size: 20px;
+}
+.frc1{
+    height: 80px;
+    width: 100px;
+}
+.frc2{
+    height: 70px;
+    width: 300px;
+}
+/* * -----------------END OF SEASON SALE----------- */
+#seasonsale{
+    height: 350px;
+    background-color: rgb(43, 40, 40);
+    text-align: center;
+    background-image: url(../images/cta.jpeg);
+    background-position: bottom;
+    /* background-color: transparent; */
+    /* opacity: 0.7; */
+    /* opacity: 0.1; */
+}
+.seasonsalemainclass{
+    margin: auto;
+    padding-top: 100px;
+    line-height: 50px;
+    color: white;
+}
+.seasonsalemainclass h1{
+    font-size: 43px;
+}
+.seasonsalemainclass button{
+    height: 55px;
+    width: 175px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border: whitesmoke;
+    font-size: 15px;
+    color: rgb(31, 30, 30);
+}
+/* ---------------OUR ENGINEER-------------------------- */
+#OURENGINEER{
+    height: 700px;
+}
+.ourENGmain{
+    height: 510px;
+    width: 1120px;
+    margin: auto;
+    margin-top: 100px;
+    /* padding-top: 40px; */
+    display: flex;
+    justify-content: space-between;
+}
+.ENGprofiles{
+    height: 510px;
+    width: 350px;
+    text-align: center;
+    color: rgb(31, 30, 30);
+}
+.ENGprofiles img{
+    width: 350px;
+}
+.ENGprofiles h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.ENGsocialshover{
+    height: 50px;
+    width: 130px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    /* display: none; */
+    visibility: hidden;
+}
+.ENGsocialshover i{
+    margin-top: 7px;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: rgb(8, 8, 8);
+ color: rgb(255, 255, 255);
+
+}
+.ESh1{
+    height: 33px;
+    width: 33px;
+    border-radius: 30px;
+    background-color: black;
+}
+.ENGprofiles:hover .ENGsocialshover{
+    /* display: block; */
+    visibility: visible;
+}
+* ------------CONTACT US--------------------------------------------- */
+#CONTACT{
+    height: 400px;
+   
+}
+.contactmaindiv{
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(31, 30, 30);
+}
+.CONTACT1234{
+    height: 350px;
+    width: 250px;
+    color: rgb(31, 30, 30);
+}
+.CONTACT1234 h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+   font-weight: lighter;
+}
+.CONTACT1234 p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.CONTACT1234 h3{
+    margin-bottom: 20px;   
+}
+.CONTACT1234 h4{
+    margin-bottom: 20px;
+}
+.CONTACT1234 img{
+    height: 20px;
+    width: 20px;
+    border: 10px solid black;
+    border-radius: 30px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.socialhandle{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chaaricon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    color: white;
+}
+
+.socialhandle i{
+    font-size: 18px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+/* -----------footer------------- */
+#foooter{
+    height: 80px;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.FOOT2{
+    color: white;
+}
+.FOOT3{
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    
+}
+.FOOT3 li{
+    /* border-radius: 17px; */
+}
+.ATM{
+    padding-right: 20px;
+   
+}
+.ATM img{
+    border-radius:  0.25rem;
+}
+/* #mainbodyimage{
+    background-image: url(../images/cta.jpeg);
+    z-index: -1;
+    height: 3000px; */
+    /* background-color: navy; */
+    /* opacity: 0.7; */
+/* } */

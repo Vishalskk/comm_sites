@@ -1,0 +1,321 @@
+/* ---------top free shiping----------- */
+@media screen and (min-width: 320px) and (max-width:1350px) {
+    #topper{
+        width: 1300px;
+        height: 200px;
+        display: block;
+    }
+    .top1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .top2{
+        height: 100px;
+        width: 900px;
+        margin: auto;
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    .top2 img{
+        height: 50px;
+        width: 70px;
+    }
+    .BOR{
+        border-left: 5px solid rgb(185, 185, 185);
+        border-right: 5px solid rgb(185, 185, 185);
+        height: 80px;
+    }
+}
+/* -------------navbar-------------- */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    #index{
+        width: 1300px;
+        height: 500px;
+        display: block;
+        position: static;
+    }
+    .indexone{
+        height: 70px;
+    }
+    li img{
+        margin-left: 200px;
+        height: 150px;
+    }
+    .indextwo{
+        height: 300px;
+        width: 1300px;
+        display: block;
+        margin-top: 100px;
+    }
+    .carthover{
+    height: 1450px;
+    width: 1200px;
+position: relative;
+right: 830px;
+    }
+    .carthover h1{
+        font-size: 90px;
+    }
+    .cart1{
+        width: 1150px;
+        height: 400px;
+    }
+    .indextwo li{
+        font-size: 50px;
+        width: 1100px;
+        /* margin-left: 50px; */
+    }
+    .indexthree{
+        height: 150px;
+        width: 400px;
+        border-radius: 90px;
+        font-size: 50px;
+        padding-top: 50px;
+        position: absolute;
+        top: 410px;
+        left: 800px;
+        padding-left: 70px;
+    }
+    .RATE{
+        height: 250px;
+        width: 450px;
+        font-size: 70px;
+    }
+    .cart2{
+        width: 1150px;
+        height: 400px;
+    }
+    .cart img{
+        height: 400px;
+        width: 300px;
+    }
+    .WrongSIGN{
+        position: relative;
+        bottom: 110px;
+        left: 500px;
+        font-size: 100px;
+    }
+    .wrongSIGN{
+        font-size: 50px;
+        bottom: 320px;
+        left: 430px;
+    }
+    .wrongSIGN2{
+        margin-right: 90px;
+    }
+    .cart3{
+        width: 1150px;
+        height: 100px;
+        font-size: 70px;
+    }
+    .cart4{
+        width: 1150px;
+        height: 150px;
+    }
+    .cart4 button{
+        margin-left: 35px;
+        height: 152px;
+        width: 467px;
+        font-size: 50px;
+    }
+}
+/* -------------------------upperPATTA----------------------------- */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    #uperpatta{
+        width: 1250px;
+        height: 100px;
+        font-size: 70px;
+    }
+/* ----------------------dashboard---------------------------- */
+    #DASHBOARD{
+        height: 3100px;
+        width: 1300px;
+    }
+    .dashboard4{
+        /* display: block; */
+        height: 500px;
+        width: 1100px;
+    }
+    .domain{
+        height: 250px;
+        display: block;
+        margin-top: 150px;
+    }
+    .dashmaindata{
+        height: 3450px;
+        /* width: 1100px; */
+    }
+    .dash1234 button{
+        height: 100px;
+        width: 320px;
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .dashy1{
+        height: 1250px;
+        width: 1100px;
+    }
+    .dashmain1 img{
+        height: 500px;
+        width: 500px;
+        border-radius: 250px;
+    }
+    .dashmain2{
+        height: 1250px;
+        font-size: 60px;
+    }
+    .dashmain2 h1{
+        font-size: 100px;
+    }
+    .dashymain2{
+        margin-top: 1000px;
+        font-size: 70px;
+    }
+    .dashy2{
+        height: 700px;
+        width: 1300px;
+
+    }
+    .dashORDER1234{
+        width: 1300px;
+        height: 300px;
+        font-size: 70px;
+        font-size: 50px;
+    }
+    .bluee{
+        background-color: #007bff;
+        height: 50px;
+        width: 220px;
+        border-radius: 5px;
+        color: white;
+    }
+    .greenee{
+        background-color: #28a745;
+        height: 50px;
+        width: 220px;
+        border-radius: 5px;
+        color: white;
+    }
+    .redee{
+        background-color: #dc3545;
+        height: 50px;
+        width: 220px;
+        border-radius: 5px;
+        color: white;
+    }
+    .HOD{
+        background-color: #17a2b8;
+        height: 50px;
+        width: 220px;
+        border-radius: 5px;
+        color: white;
+    }
+    .realmee{
+        background-color: #ffc107;
+        height: 50px;
+        width: 220px;
+        border-radius: 5px;
+        color: white;
+    }
+    .dashORDERandar4 button{
+      height: 70px;
+      width: 150px;
+      font-size: 30px;
+      position: relative;
+      right: 40px;
+    }
+    .dateSTAN{
+        margin-left: 90px;
+    }
+    /* ------------CONTACT US--------------------------------------------- */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    #CONTACT{
+        height: 4500px;
+        width: 1250px;
+    }
+    .contactmaindiv{
+        height: 4100px;
+        width: 1100px;
+        display: block;
+    }
+    .CONTACT1234{
+        height: 1000px;
+        width: 1120px;
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .CONTACT1234 h1{
+        margin-bottom: 20px;
+        font-size: 100px;
+       font-weight: lighter;
+       text-align: center;
+    }
+    .CONTACT1234 p{
+        margin-top: 30px;
+        font-size: 60px;
+    }
+    .CONTACT1234 h3{
+        margin-bottom: 20px;
+        font-size: 70px;
+    
+    }
+    .CONTACT1234 h4{
+        margin-bottom: 20px;
+        font-size: 60px;
+    
+    }
+    .socialhandle{
+        height: 250px;
+        width: 700px;
+        margin: auto;
+    }
+    .chaaricon{
+    margin-left: 40px;
+    height: 130px;
+    width: 800px;
+    border-radius: 100px;
+    background-color: rgb(24, 21, 21);
+    }
+    .socialhandle i{
+        font-size: 70px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .CONTACT1234 p{
+        margin-bottom: 50px;
+        font-size: 70px;
+    }
+    }
+    /* -----------footer------------- */
+    @media screen and (min-width: 320px) and (max-width:480px) {
+    #foooter{
+        height: 800px;
+        width: 1350px;
+        display: block;
+    }
+    .FOOT{
+        /* background-color: yellow; */
+        height: 100px;
+        width: 900px;
+        margin: auto;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 70px;
+    }
+    .FOOT1{
+        padding-top: 100px;
+    }
+    .FOOT2 img{
+       height: 170px;
+       width: 700px;
+    }
+    .FOOT3 img{
+        height: 100px;
+        width: 170px;
+        margin-top: 100px;
+        border-radius: 20px;
+        margin-left: 30px;
+    }
+    }
+}

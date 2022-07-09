@@ -1,0 +1,488 @@
+/* ---------top free shiping----------- */
+#topper{
+    height: 35px;
+    display: flex;
+    background-color: rgb(31, 30, 30);
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+    font-size:smaller;
+    color: white;
+    width: 100%;
+    align-items: center;
+    font-weight: 10;
+}
+.top1{
+    padding-left: 35px;
+}
+.top2{
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+    padding-right: 80px;
+}
+.BOR{
+    border: 1px solid rgb(185, 185, 185);
+    height: 22px;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+/* -----------navbar----------------- */
+#index{
+    list-style-type: none;
+    list-style:none;
+    height: 70px;
+    /* width: 100%; */
+    /* position: fixed; */
+    background-color: white;
+    box-shadow: 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(31, 30, 30);
+}
+#index a{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+}
+.indexone{
+    /* margin-right: 700px; */
+justify-content: flex-start;
+
+}
+.indextwo{
+    color: navy;
+    display: flex;
+    /* justify-content:space-between; */
+    /* margin-left: 300px; */
+    /* font-family: 'Brygada 1918', serif; */
+    font-size: 15px;
+    justify-content: space-between;
+}
+.indextwo li{
+    padding-right: 37px;
+}
+.shophover{
+    height: 400px;
+    width: 150px;
+    background-color: rgb(31, 30, 30);
+    color: rgb(182, 175, 175);
+    position: relative;
+    top: 235px;
+    display: none;
+}
+.pagesdiv:hover .pageshover{
+    display: block;
+}
+.pageshover{
+    height: 400px;
+    width: 150px;
+    background-color: rgb(31, 30, 30);
+    color: rgb(182, 175, 175);
+    position: relative;
+    top: 226px;
+    display: none;
+}
+.shop{
+    border: 2px solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 130px;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.faltu{
+    border-top: none;
+}
+
+.indexthree{
+    height: 30px;
+    width: 90px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    /* margin-left: 350px; */
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: small;
+}
+*{
+    margin: 0%;
+}
+.carthover{
+    height: 470px;
+    width: 450px;
+    color: rgb(54, 54, 54);
+    background-color: white;
+    position: absolute;
+    top: 106px;
+    right: 70px;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0px 0px 1px;
+    display: none;
+}
+.carthover h1{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: 444;
+    font-size: 24px;
+}
+.cart1{
+border: 1px solid;
+border-top: none;
+border-left: none;
+border-right: none;
+width: 355px;
+display: flex;
+
+}
+.cart{
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+.cart p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.cart .rate{
+    font-size: 17px;
+}
+.WrongSIGN{
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+
+}
+.wrongSIGN{
+    font-size: 15px;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+}
+.wrongSIGN2{
+    margin-right: 15px;
+}
+.carty {
+    position: relative;
+    right: 50px;
+}
+
+.cart2{
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    padding-top: 10px;
+    width: 355px;
+}
+.cart3{
+    width: 355px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.cart4{
+    margin-left: 55px;
+    /* justify-content: center; */
+}
+.cart4 button{
+    margin-left: 5px;
+    height: 52px;
+    width: 167px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    font-size: 17px;
+}
+.indexthree:hover .carthover{
+    display: block;
+}
+/* ------------------dashboard-------------------- */
+#uperpatta{
+    height: 80px;
+    background-color: whitesmoke;
+    
+}
+#uperpatta p{
+    padding-top: 30px;
+    padding-left: 180px;
+    color: rgb(54, 54, 54);
+}
+#DASHBOARD{
+    height: 600px;
+    width: 1100px;
+    margin: auto;
+   box-shadow: 1px 1px 1px 1px;
+}
+.dashboard4{
+    height: 100px;
+    width: 550px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(40, 40, 56);
+    
+}
+.domain{
+display: flex;
+height: 100px;
+width: 300px;
+justify-content: space-around;
+}
+.dash1234 button{
+    height: 50px;
+    width: 120px;
+    /* border: 1px dotted; */
+    margin: auto;
+
+}
+.dash1234 button:visited{
+    background-color:orangered;
+    color: white;
+}
+.dash1234 button:hover{
+    background-color:orangered;
+    color: white;
+}
+/* .dash1{
+    background-color: orangered;
+}
+.dash1234 h4{
+    margin-top: 15px;
+    color: white;
+} */ */
+.dashmaindata{
+    height: 400px;
+    width: 1100px;
+    /* border: 1px solid gray; */
+    /* border-bottom: none; */
+    margin: auto;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.dashy1{
+    height: 150px;
+    width: 1100px;
+    margin: auto;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.dashymain1{
+    height: 130px;
+    display: flex;
+}
+.dashymain2{
+    height: 20px;
+    padding-left: 15px;
+    /* font-weight: 700; */
+    font-size: 20px;
+}
+.dashmain1{
+    height: 150px;
+}
+.dashmain1 img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 70px;
+}
+.dashmain2{
+    height: 70px;
+    width: 1000px;
+margin-left: 10px;
+color: rgb(90, 87, 87);
+
+}
+.dashmain2 h1{
+    font-weight: lighter;
+}
+.dashORDER1234{
+    height: 50px;
+    width: 1100px;
+    border-bottom: 2px solid rgb(207, 204, 204);
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #dc3545; */
+}
+.dashORDER1234 h3{
+    font-weight: 550;
+   
+}
+.dashy2{
+    height: 300px;
+    width: 1100px;
+    /* border: 1px solid; */
+    margin: auto;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: space-around;
+    border: 2px solid rgb(207, 204, 204);
+    
+}
+.dashORDER4{
+/* border: none; */
+}
+.dashORDERandar4{
+    height: 50px;
+    width: 100px;
+}
+.dashORDERandar4 button{
+border-radius: 40px;
+}
+.dashORDERandar4 button:hover{
+    border: orangered;
+    color: orangered;
+}
+.bluee{
+    background-color: #007bff;
+    height: 18px;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+}
+.greenee{
+    background-color: #28a745;
+    height: 18px;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+}
+.redee{
+    background-color: #dc3545;
+    height: 18px;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+}
+.HOD{
+    background-color: #17a2b8;
+    height: 18px;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+}
+.realmee{
+    background-color: #ffc107;
+    height: 18px;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+}
+.istetas{
+    position: relative;
+    left: 30px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* ------------CONTACT US--------------------------------------------- */
+#CONTACT{
+    height: 400px;
+   background-color: white;
+}
+.contactmaindiv{
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(31, 30, 30);
+}
+.CONTACT1234{
+    height: 350px;
+    width: 250px;
+    color: rgb(31, 30, 30);
+}
+.CONTACT1234 h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+   font-weight: lighter;
+}
+.CONTACT1234 p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.CONTACT1234 h3{
+    margin-bottom: 20px;   
+}
+.CONTACT1234 h4{
+    margin-bottom: 20px;
+}
+.CONTACT1234 img{
+    height: 20px;
+    width: 20px;
+    border: 10px solid black;
+    border-radius: 30px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.socialhandle{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chaaricon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(31, 28, 28);
+    border-radius: 30px;
+    color: white;
+}
+
+.socialhandle i{
+    font-size: 18px;
+    margin-left: 13px;
+    margin-top: 10px;
+    color: white;
+}
+/* -----------footer------------- */
+#foooter{
+    height: 80px;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.FOOT2{
+    color: white;
+}
+.FOOT3{
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    
+}
+.FOOT3 li{
+    /* border-radius: 17px; */
+}
+.ATM{
+    padding-right: 20px;
+   
+}
+.ATM img{
+    border-radius:  0.25rem;
+}

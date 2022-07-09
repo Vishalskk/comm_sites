@@ -1,0 +1,359 @@
+/* ---------top free shiping----------- */
+@media screen and (min-width: 320px) and (max-width:1350px) {
+    #topper{
+        width: 1300px;
+        height: 200px;
+        display: block;
+    }
+    .top1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .top2{
+        height: 100px;
+        width: 900px;
+        margin: auto;
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    .top2 img{
+        height: 50px;
+        width: 70px;
+    }
+    .BOR{
+        border-left: 5px solid rgb(185, 185, 185);
+        border-right: 5px solid rgb(185, 185, 185);
+        height: 80px;
+    }
+}
+/* -------------navbar-------------- */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    #index{
+        width: 1300px;
+        height: 500px;
+        display: block;
+        position: static;
+    }
+    .indexone{
+        height: 70px;
+    }
+    li img{
+        margin-left: 200px;
+        height: 150px;
+    }
+    .indextwo{
+        height: 300px;
+        width: 1300px;
+        display: block;
+        margin-top: 100px;
+    }
+    .carthover{
+    height: 1450px;
+    width: 1200px;
+position: relative;
+right: 830px;
+    }
+    .carthover h1{
+        font-size: 90px;
+    }
+    .cart1{
+        width: 1150px;
+        height: 400px;
+    }
+    .indextwo li{
+        font-size: 50px;
+        width: 1100px;
+        /* margin-left: 50px; */
+    }
+    .indexthree{
+        height: 150px;
+        width: 400px;
+        border-radius: 90px;
+        font-size: 50px;
+        padding-top: 50px;
+        position: absolute;
+        top: 410px;
+        left: 800px;
+        padding-left: 70px;
+    }
+    .RATE{
+        height: 250px;
+        width: 450px;
+        font-size: 100px;
+    }
+    .cart2{
+        width: 1150px;
+        height: 400px;
+    }
+    .cart img{
+        height: 400px;
+        width: 300px;
+    }
+    .WrongSIGN{
+        position: relative;
+        bottom: 110px;
+        left: 1000px;
+        font-size: 80px;
+    }
+    .wrongSIGN{
+        font-size: 50px;
+        bottom: 100px;
+        left: 750px;
+    }
+    .wrongSIGN2{
+        margin-right: 100px;
+    }
+    .cart3{
+        width: 1150px;
+        height: 100px;
+        font-size: 70px;
+    }
+    .cart4{
+        width: 1150px;
+        height: 150px;
+    }
+    .cart4 button{
+        margin-left: 35px;
+        height: 152px;
+        width: 467px;
+        font-size: 50px;
+    }
+}
+/* -------------------------upperPATTA----------------------------- */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    #uperpatta{
+        width: 1250px;
+        height: 100px;
+        font-size: 70px;
+    }
+}
+/* ------------welcome to world--------- --> */
+@media screen and (min-width: 320px) and (max-width:480px) {
+#welcometotheworld{
+             width: 1300px;
+             height: 3000px;
+}
+.welcome1{
+    height: 3000px;
+    width: 1200px;
+    display: block;
+}
+.welcome121{
+    height: 1500px;
+    width: 1200px;
+    margin-right: 300px;
+    margin: auto;
+}
+.welcome121 img{
+    height: 1500px;
+    width: 1200px;
+    position: relative;
+    bottom: 500px;
+    right: 310px;
+}
+
+.welcome122{
+    height: 1500px;
+    width: 1200px;
+    margin: auto;
+    /* font-size: 50px; */
+    color: #3f434e;
+}
+.welcome122 h1{
+    font-size: 100px;
+}
+.welcome122 p{
+    font-size: 60px;
+}
+.freeGIFTmain{
+    width: 1200px;
+    height: 700px;
+}
+.freegiftcard1{
+    width: 1200px;
+    font-size: 20px;
+    height: 200px;
+    }
+.freegiftcard2{
+height: 200px;
+width: 1200px;
+font-size: 22px;
+}
+.frc2{
+ width: 1200px;
+ height: 200px;
+}
+.frc2 p{
+    font-size: 70px;
+}
+.frc2 h1{
+    font-size: 100px;
+}
+.fa-check{
+    font-size: 70px;
+}
+}
+/* ---------------------#seasonsale---------------------- */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    #seasonsale{
+        width: 1300px;
+        height: 1700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .seasonsalemainclass{
+        height: 1200px;
+        width: 1250px;
+        padding-top: 100px;
+        line-height: 150px;
+        margin: auto;
+        padding-top: 350px;
+    }
+    .seasonsalemainclass h1{
+        font-size: 150px;
+    }
+    .seasonsalemainclass p{
+        font-size: 70px;
+    }
+    .seasonsalemainclass button{
+        height: 210px;
+        width: 650px;
+        border-radius: 150px;
+        font-size: 60px;
+        margin-top: 30px;
+    }
+}
+/* ---------------OUR ENGINEER-------------------------- */
+@media screen and (min-width: 320px) and (max-width:480px) {
+
+#OURENGINEER{
+    height: 3700px;
+    width: 1300px;
+}
+.ourENGmain{
+    /* height: 510px; */
+    /* width: 1120px; */
+    display: block;
+}
+.ENGprofiles{
+    height: 1100px;
+    width: 1000px;
+    margin-bottom: 100px;
+    margin: auto;
+}
+.ENGprofiles img{
+    height: 800px;
+    width: 900px;
+}
+.ENGprofiles h1{
+    font-size: 70px;
+}
+.ENGprofiles p{
+    font-size: 50px;
+}
+.ENGsocialshover{
+    width: 500px;
+    height: 100px;
+}
+.ESh1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.ENGsocialshover i{
+    font-size: 50px;
+    margin-top: 20px;
+}
+}
+/* ------------CONTACT US--------------------------------------------- */
+@media screen and (min-width: 320px) and (max-width:480px) {
+    #CONTACT{
+        height: 4500px;
+        width: 1250px;
+    }
+    .contactmaindiv{
+        height: 4100px;
+        width: 1100px;
+        display: block;
+    }
+    .CONTACT1234{
+        height: 1000px;
+        width: 1120px;
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .CONTACT1234 h1{
+        margin-bottom: 20px;
+        font-size: 100px;
+       font-weight: lighter;
+       text-align: center;
+    }
+    .CONTACT1234 p{
+        margin-top: 30px;
+        font-size: 60px;
+    }
+    .CONTACT1234 h3{
+        margin-bottom: 20px;
+        font-size: 70px;
+    
+    }
+    .CONTACT1234 h4{
+        margin-bottom: 20px;
+        font-size: 60px;
+    
+    }
+    .socialhandle{
+        height: 250px;
+        width: 700px;
+        border: 1px dotted;
+        margin: auto;
+    }
+    .chaaricon{
+    margin-left: 40px;
+    height: 130px;
+    width: 800px;
+    border-radius: 100px;
+    background-color: rgb(24, 21, 21);
+    }
+    .socialhandle i{
+        font-size: 70px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .CONTACT1234 p{
+        margin-bottom: 50px;
+        font-size: 70px;
+    }
+    }
+    /* -----------footer------------- */
+    @media screen and (min-width: 320px) and (max-width:480px) {
+    #foooter{
+        height: 800px;
+        width: 1350px;
+        display: block;
+    }
+    .FOOT{
+        /* background-color: yellow; */
+        height: 100px;
+        width: 900px;
+        margin: auto;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 70px;
+    }
+    .FOOT1{
+        padding-top: 100px;
+    }
+    .FOOT2 img{
+       height: 170px;
+       width: 700px;
+    }
+    .FOOT3 img{
+        height: 100px;
+        width: 170px;
+        margin-top: 100px;
+        border-radius: 20px;
+        margin-left: 30px;
+    }
+    }
